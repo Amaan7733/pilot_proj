@@ -1,0 +1,87 @@
+body{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.bkinForm{
+    /* display: grid;  */
+    background-color: gainsboro;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+     
+}
+.checkIn{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+#checkIn {
+    width: 200px;
+    height: 30px;
+}
+.checkOUt{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+#checkOut{
+    width: 200px;
+    height: 30px;
+}
+.chooseItem{
+    background-color: pink;
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.options{
+    display: flex;
+    justify-content: center;
+}
+.room{
+    margin: 10px;
+    height: 180px;
+    width: 180px;
+    background-color: lightskyblue;
+    padding: 10px;
+    justify-content: space-between;
+}
+.inputOpt{
+    display: flex;
+    justify-content: center;
+
+}
+.check{
+    display: flex;
+    justify-content: center;
+}
+.summaryCont{
+    /* display: none; */
+    margin-top: 10px;
+    max-height: 400px;
+    width: 50%;
+    display: none;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.perti{
+    text-align: left;
+}
+.tabAmt{
+    text-align: right;
+}
+.grndtot{
+    margin-top: 30px;
+    background-color: blanchedalmond;
+    font-size: 25px;
+    
+}
+#Proceed{
+    border: none;
+    justify-content: center;
+}

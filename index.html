@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bkinForm">
+        <div class="dateInput">
+            <div class="checkIn">
+                <h3>CHECK IN</h3>
+                <input type="date" id="checkIn">
+            </div>
+            <div class="checkOUt">
+                <h3>CHECK OUT</h3>
+                <input type="date" id="checkOut">
+            </div>
+        </div>
+        <div class="chooseItem">
+            <h4>Select Your Room</h4>
+            <div class="options">
+                <div class="room" id="delux">
+                    <a href="">more</a>
+                    <p>DELUX</p>
+                    <label  class="priceRT">$2000</label>
+                </div>
+                <div class="room" id="platinum">
+                    <a href="">more</a>
+                    <p>PLATINUM</p>
+                    <label class="priceRT">$4000</label>
+                </div>
+                <div class="room" id="premium">
+                    <a href="">more</a>
+                    <p>PREMIUM</p>
+                    <p class="priceRT" >$5000</p>
+                </div>
+            </div>
+            <div class="inputOpt">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+            </div>
+            <div class="check">
+                <input type="checkbox" class="check">
+               <p class="check">Require Pick-up during arrival (optional)</p>
+            </div>
+        </div>
+        <div class="summaryCont">
+            <table id="sumTab">
+                <thead>
+                    <h1>SUMMARY</h1>
+                    <tr>
+                        <th class="perti">name</th>
+                        <th class="tabAmt">amount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th class="perti">Delux</th>
+                    <th class="tabAmt">$####</th>
+                  </tr>
+                  <tr>
+                    <th class="perti">Pick-up during arrival (optional)</th>
+                    <th class="tabAmt">$###</th>
+                  </tr>
+                  <tr>
+                    <th class="perti">IGST @ 18%</th>
+                    <th class="tabAmt">$##</th>
+                  </tr>
+                  <tr>
+                    <th class="perti">Discount Coupon (if any)</th>
+                    <th class="tabAmt"><input type="text" id="couponID"></th>
+                  </tr>
+                  <tr class="grndtot">
+                    <th class="perti">GRAND TOTAL</th>
+                    <th class="tabAmt" id="gAmt">$####</th>
+                  </tr>
+                </tbody>
+            </table>
+            
+        </div>
+        <button id="Proceed">Procced to Pay</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
