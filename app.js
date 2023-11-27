@@ -16,12 +16,7 @@ function addData(){
     });
     console.log(data);
     console.log(daysDiff);
-    // function noOfDay (checkIn,checkOut){
-    //     const timeDiff = checkOut - checkIn;
-    //     const daysDiff = Math.ceil(timeDiff/ (1000 * 60 * 60 * 24));
-    //     return daysDiff;
-        
-    // }
+    
 }
   
   addBtn.addEventListener("click",addData)
